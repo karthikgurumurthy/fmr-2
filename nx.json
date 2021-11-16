@@ -109,12 +109,13 @@
     },
     "logger-lib": {
       "tags": [
-        "domain:shared"
+        "domain:shared",
+        "type:util"
       ]
     },
     "luggage": {
       "tags": [
-        "domain:apps/luggage",
+        "domain:luggage",
         "type:app"
       ]
     },
@@ -140,6 +141,12 @@
       "tags": [
         "domain:luggage",
         "type:feature"
+      ]
+    },
+    "luggage-ui-card": {
+      "tags": [
+        "domain:luggage",
+        "type:ui"
       ]
     },
     "passenger": {
@@ -171,6 +178,11 @@
         "domain:passenger",
         "type:feature"
       ]
+    },
+    "shared-auth-lib": {
+      "tags": [
+        "domain:shared", 
+        "type:util"]
     }
   }
 }

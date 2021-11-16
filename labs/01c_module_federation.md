@@ -182,7 +182,7 @@ Now, let's remove the need for registering the micro frontends upfront with shel
     },
     ```
 
-2. Append following line to the `md.d.ts`:
+2. Append following line to the `mf.d.ts`:
 
     ```typescript
     export type PassengerMf = import('@flight-workspace/passenger');

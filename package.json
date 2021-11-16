@@ -33,7 +33,7 @@
   "private": true,
   "dependencies": {
     "@angular-architects/module-federation": "^12.5.2",
-    "@angular-architects/module-federation-tools": "^12.5.2",
+    "@angular-architects/module-federation-tools": "^12.5.3",
     "@angular/animations": "12.2.8",
     "@angular/cdk": "12.2.8",
     "@angular/common": "12.2.8",
