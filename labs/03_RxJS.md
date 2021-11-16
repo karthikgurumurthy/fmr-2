@@ -186,7 +186,7 @@ As you see in this URL, the API takes an parameter for filtering flights with re
     <div class="content">
 
     <div class="control-group">
-        <label>Stadt</label>
+        <label>City</label>
         <input [formControl]="control" class="form-control">
     </div>
 
@@ -445,7 +445,7 @@ Let's allow to add flights to a shopping basket in a reactive way. For this, add
 ```typescript
 basket$: Observable<Flight[]>;
 
-private addToBasketSubject = new Subject<Flight>;
+private addToBasketSubject = new Subject<Flight>();
 addToBasket$ = this.addToBasketSubject.asObservable();
 ```
 
@@ -540,7 +540,7 @@ function switchMapCompensate(projector) {
 type Projector<T, U> = (item: T) => Observable<U>;
 
 function switchMapCompensate<T,U>(projector: Projector<T,U>) {
-  return (source$: Obserable<T>) => {
+  return (source$: Observable<T>) => {
     return source$.pipe(switchMap( (p:T) => projector(p).pipe(catchError(_ => of([])))))
   };
 }

@@ -2,7 +2,7 @@
 
 - [Libraries and Monorepo](#libraries-and-monorepo)
   - [Using the Project Monorepo](#using-the-project-monorepo)
-  - [Bonus: Use a library *](#bonus-use-a-library-)
+  - [Use a library](#use-a-library)
   - [Bonus: Adapt your library *](#bonus-adapt-your-library-)
   - [Bonus: Export your library to a local npm registry **](#bonus-export-your-library-to-a-local-npm-registry-)
   - [Bonus: Writing a Passenger Library ***](#bonus-writing-a-passenger-library-)
@@ -211,7 +211,7 @@ You can follow these steps:
 
 8. Test your solution.
 
-## Bonus: Use a library *
+## Use a library
 
 In this example, you will look at the included ``logger-lib``.
 

@@ -23,11 +23,11 @@
 
 > If you use Visual Studio code, you can skip this section.
 
-In this part of the tutorial, you will pull (or download & extract ``adesso.zip``) the starter kit and run it.
+In this part of the tutorial, you will pull (or download & extract ``[...].zip``) the starter kit and run it.
 
 1. Pull the starter kit:
 
-    https://github.com/L-X-T/adesso
+    https://github.com/L-X-T/[...]
 
     If you are using Linux or OS X, you should add the execution flag (x) to all files in the folder `node_modules\.bin` with `chmod`: ``chmod -R +x  node_modules``.
 
@@ -53,18 +53,16 @@ In this part of the tutorial, you will pull (or download & extract ``adesso.zip`
 
 > If you are using IntelliJ/WebStorm, you can skip this section.
 
-In this part of the exercise, you will extract the starter kit (``adesso.zip``) and run it.
+In this part of the tutorial, you will pull (or download & extract ``[...].zip``) the starter kit and run it.
 
 Tip: Install the following useful plugins for developing with Angular:
 
 - [Angular Context Creator](https://marketplace.visualstudio.com/items?itemName=sjuulwijnia.kx-vscode-angular-context-creator)
 - [Angular Language Service](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template)
 
-In this part of the tutorial, you will pull (or download & extract adesso.zip) the starter kit and run it.
-
 1. Pull the starter kit:
 
-    https://github.com/L-X-T/adesso
+    https://github.com/L-X-T/[...]
 
     If you are using Linux or OS X, you should use `chmod` to add the execution flag (x) to all files in the `node_modules/.bin` folder: ``chmod -R +x  node_modules``.
 

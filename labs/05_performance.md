@@ -248,7 +248,7 @@ You find some information about the object spread operator (e. g. `...oldFlight`
     ng build --prod
     ```
     
-3. Start live-server for your production build. For this, switch to your project within the ``dist`` folder and call serve:
+3. Start live-server for your production build. For this, switch to your project within the ``dist`` (``dist/apps/flight-app``) folder and call serve:
 
     ```
     serve -s
@@ -279,7 +279,7 @@ Using the webpack-bundle-analyzer one can have a look at a bundle's content. In 
 
 3. Analyze your bundles: 
     ```
-    cd dist/flight-app
+    cd dist/apps/flight-app
     webpack-bundle-analyzer stats.json
     ```
 
@@ -296,7 +296,7 @@ Using the webpack-bundle-analyzer one can have a look at a bundle's content. In 
 6. Analyze these bundles too and compare it to the former bundles: 
 
     ```
-    cd dist/flight-app
+    cd dist/apps/flight-app
     webpack-bundle-analyzer stats.json
     ```
    
