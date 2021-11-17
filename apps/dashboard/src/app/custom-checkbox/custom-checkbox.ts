@@ -1,3 +1,6 @@
+import { Output, HostListener, Component } from '@angular/core';
+import * as EventEmitter from 'events';
+
 const tmpl = document.createElement('template');
 tmpl.innerHTML = `
     <style>
@@ -16,6 +19,9 @@ tmpl.innerHTML = `
     <div class="checkbox"></div>
 `;
 
+@Component({
+  template: ''
+})
 export class CustomCheckboxElement extends HTMLElement {
   _clicked: EventListener;
 
@@ -24,6 +30,13 @@ export class CustomCheckboxElement extends HTMLElement {
     this.attachShadow({ mode: 'open' });
     this.shadowRoot.appendChild(tmpl.content.cloneNode(true));
     this.label = 'Yes or No?';
+  }
+
+  @Output() checkedChange = new EventEmitter<boolean>();
+
+  @HostListener('changed', ['$event'])
+  changed($event: CustomEvent) {
+    this.checkedChange.emit($event.detail);
   }
 
   static get observedAttributes() {

@@ -1,7 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-dashboard-tile',
+  selector: 'dashboard-tile',
   templateUrl: './dashboard-tile.component.html'
 })
 export class DashboardTileComponent implements OnInit {
